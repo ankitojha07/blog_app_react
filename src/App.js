@@ -1,7 +1,10 @@
-import "./App.css";
-
+import Home from "./pages/Home";
 function App() {
-  return <div className="bg-red-500">App component</div>;
+  return (
+    <div className="max-w-screen-md mx-auto pt-20 ">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
