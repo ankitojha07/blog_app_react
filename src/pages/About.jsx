@@ -10,9 +10,6 @@ const About = () => {
         repellendus voluptatibus voluptatum, saepe harum? Sequi deserunt dolores
         culpa temporibus deleniti asperiores minima.
       </p>
-      <button className=" bg-red-600 rounded mt-10 pt-2 pb-2 pl-3 pr-3 text-center flex justify-center font-bold  bg-transparent text-black border border-blue-800">
-        Click me
-      </button>
     </div>
   );
 };
