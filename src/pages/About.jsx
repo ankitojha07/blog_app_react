@@ -1,9 +1,9 @@
 import React from "react";
 
-const Home = () => {
+const About = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold">Hi welcome to my blog!</h1>
+      <h1 className="text-3xl font-bold">Hi this is About Page!</h1>
       <p className="mt-5 leading-5 tracking-widest font-Georgia">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
         dignissimos natus iure inventore provident, quam libero similique
@@ -17,4 +17,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default About;
