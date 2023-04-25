@@ -7,6 +7,7 @@ import Article from "./pages/Article";
 
 //components
 import Navbar from "./components/Navbar";
+import ReactPractice from "./pages/ReactPractice";
 function App() {
   return (
     <Router>
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/article-list" element={<ArticleList />} />
+          <Route path="/practice-react" element={<ReactPractice />} />
           <Route path="/article/:id" element={<Article />} />
         </Routes>
       </div>

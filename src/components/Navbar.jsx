@@ -16,8 +16,8 @@ const Navbar = () => {
           </Link>
         </li>
         <li className="inline-block py-4">
-          <Link to="/article-list" className="pl-6 pr-8 ">
-            Article
+          <Link to="/practice-react" className="pl-6 pr-8 ">
+            Practice React
           </Link>
         </li>
       </ul>

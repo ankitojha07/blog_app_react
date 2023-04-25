@@ -1,5 +1,6 @@
 const articles = [
   {
+    id :1,
     name: "learn-react",
     title: "The Fastest Way to Learn React",
     thumbnail: "/images/blog1.jpeg",
@@ -11,6 +12,7 @@ const articles = [
     ],
   },
   {
+    id :2,
     name: "learn-node",
     title: "How to Build a Node Server in 10 Minutes",
     thumbnail: "/images/blog2.jpeg",
