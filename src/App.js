@@ -8,6 +8,7 @@ import Article from "./pages/Article";
 //components
 import Navbar from "./components/Navbar";
 import ReactPractice from "./pages/ReactPractice";
+import ApiTesting from "./pages/ApiTesting";
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/article-list" element={<ArticleList />} />
           <Route path="/practice-react" element={<ReactPractice />} />
+          <Route path="/api-test" element={<ApiTesting />} />
           <Route path="/article/:id" element={<Article />} />
         </Routes>
       </div>

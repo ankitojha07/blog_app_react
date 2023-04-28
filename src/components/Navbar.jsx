@@ -20,6 +20,11 @@ const Navbar = () => {
             Practice React
           </Link>
         </li>
+        <li className="inline-block py-4">
+          <Link to="/api-test" className="pl-6 pr-8 ">
+            API Tesing
+          </Link>
+        </li>
       </ul>
     </nav>
   );

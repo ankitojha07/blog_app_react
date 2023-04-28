@@ -1,20 +1,23 @@
 import React, { useEffect, useState } from "react";
 
 const ReactPractice = () => {
-  const [data, setData] = useState(0);
+  const [data, setData] = useState(4);
   const [val, setVal] = useState("hi");
   const [newName, setNewName] = useState("Ankit");
   const [age, setAge] = useState(18);
 
   useEffect(() => {
     console.log("====================================");
-    console.log("Component mounted!!");
+    console.log("Hello");
     console.log("====================================");
   }, [val, age]);
 
-  function dataInc() {
+  const incVal = () => {
     setData(data + 1);
-  }
+  };
+  let newVal = () => {
+    setTimeout(incVal, 1000);
+  };
 
   function valUpdate() {
     setVal(val + "My name is Ankit!");
@@ -30,7 +33,7 @@ const ReactPractice = () => {
     <div>
       <div>
         <p>The value is : {data}</p>
-        <button onClick={dataInc}>Increase</button>
+        <button onClick={newVal}>Increase</button>
         <button onClick={valUpdate}>Val inc</button>
         <button onClick={nameUpdate}>VNew Name</button>
         <button onClick={ageUpdate}>Age inc</button>
