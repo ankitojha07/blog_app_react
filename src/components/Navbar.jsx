@@ -27,7 +27,7 @@ const Navbar = () => {
         </li>
         <li className="inline-block py-4">
           <Link to="/js-practice" className="pl-6 pr-8 ">
-            API Tesing
+            js-practice
           </Link>
         </li>
       </ul>
